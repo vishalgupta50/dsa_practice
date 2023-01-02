@@ -1,5 +1,5 @@
 """
-[1.]
+[1.]1
 IEEE is having its AGM next week and the president wants to serve cheese prata after the meeting. The subcommittee members
 are asked to go to food connection and get P(P<=1000) pratas packed for the function. The stall has L cooks(L<=50) and each
 cook has a rank R(1<=R<=8). A cook with a rank R can cook 1 prata in the first R minutes 1 more prata in the next 2R minutes,
