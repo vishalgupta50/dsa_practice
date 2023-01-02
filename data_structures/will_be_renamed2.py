@@ -8,11 +8,5 @@ N = 8, M = 5
 A = {3, 4, 1, 9, 56, 7, 9, 12}
 Output: 6
 
-Given an array of positive integers.
-Find the length of the longest sub-sequence such that elements in the subsequence are consecutive integers, the consecutive numbers can be in any order.
 
-N = 7
-a[] = {2,6,1,9,4,5,3}
-Output:
-6
 """
