@@ -1,0 +1,28 @@
+{
+    "emp_details": [
+        {
+            "name": "jane doe",
+            "salary": 9000,
+            "skills": [
+                "Raspberry pi",
+                "Machine Learning",
+                "Web Development"
+            ],
+            "email": "JaneDoe@pynative.com",
+            "projects": [
+                "Python Data Mining",
+                "Python Data Science"
+            ]
+        },
+        {
+            "name": "jane doe1",
+            "salary": 90010,
+            "skills": [
+                "Raspbderry pi",
+                "Machine Leadrning",
+                "Web Devedlopment"
+            ],
+            "email": "JaneDode@pynative.com"
+        }
+    ]
+}
