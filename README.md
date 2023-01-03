@@ -1,4 +1,7 @@
 # dsa_practice
+# learn selenium
+# networking concepts
+# os concepts
 
 git remote add origin git@github.com:vishalguptasnwl/dsa_practice.git
 
