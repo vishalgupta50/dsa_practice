@@ -48,4 +48,4 @@ def subArraySum(arr_list):
 arr_list = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 15, 16, 98, 15, 45, 15, 0, 10, 5, 8, 8, -1]
 
 
-subArraySum(arr_list)
+print(subArraySum(arr_list))
