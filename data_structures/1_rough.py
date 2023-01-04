@@ -3,15 +3,30 @@ print(stri[1])
 
 print(ord('a') - 96)
 
-for i in stri:
-    print(i)
+# for i in stri:
+#     print(i)
+
+
+x = [3, 4, 89, 21]
+print(x, id(x))
+
+y = list(x)
+print(y, id(y))
+y[3] = 32
+
+x.sort()
+print(x, id(x))
+
+print(y, id(y))
 
 
 
+str1 = "abcd "
+print(str1, id(str1))
 
-
-
-
+str2 = str1.rstrip()
+print(str2, id(str2))
+print(str1, id(str1))
 
 
 
