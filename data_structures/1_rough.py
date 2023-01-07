@@ -29,8 +29,16 @@ print(str2, id(str2))
 print(str1, id(str1))
 
 
+x = [67, 23, 90, 2, 1, 45]
+print(x, id(x))
+x.sort()
+# sorted(x)
+print(x, id(x))
 
-
+y = [89, 45, 90, 67, 23, 88]
+print(y, id(y))
+z = sorted(y)
+print(z, id(z))
 
 
 
