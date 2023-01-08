@@ -43,9 +43,28 @@ print(z, id(z))
 
 
 
+bal_dict = {
+    "[": 1,
+    "{": 2
+}
+print(bal_dict)
+
+char = "("
+bal_dict[char] = 5
+
+print(bal_dict)
 
 
+for key, value in bal_dict.items():
+    print(key, value)
 
+y = [89, 45, 90, 67, 23, 88]
+print(y)
+print(y.pop(0))
+print(y)
+print(id(y))
+y.sort()
+print(id(y))
 
 
 
