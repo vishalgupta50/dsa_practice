@@ -27,6 +27,7 @@ Explanation: 15 = 8 + 7 = 4 + 5 + 6 = 1 + 2 + 3 + 4 + 5
 """
 
 
+
 def find_consecutive_sum(number):
 
     return []
