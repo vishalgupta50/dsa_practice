@@ -87,6 +87,18 @@ print(number%10)
 print(number)
 
 
+tup = ()
+print(type(tup))
+
+for i in range(1, 3):
+    # print(i)
+    for j in range(4, 10):
+        # print(j)
+        if j == 6:
+            break
+        else:
+            print(j)
+
 
 
 
