@@ -67,6 +67,26 @@ y.sort()
 print(id(y))
 
 
+number = 1234
+print(len(str(number)))
+print(number%10000)
+print(number%1000)
+print(number%100)
+print(number%10)
+number = number//10
+# print(number)
+print(number%1000)
+print(number%100)
+print(number%10)
+# print(number%10)
+number = number //10
+print(number%100)
+print(number%10)
+number = number // 10
+print(number%10)
+print(number)
+
+
 
 
 

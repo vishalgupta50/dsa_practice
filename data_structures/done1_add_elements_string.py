@@ -37,15 +37,54 @@ def add_elements_of_number(input_str):
     print(new_list)
     return sum
 
-print(add_elements_of_number(input_number))
+
+
+
+def add_elements_of_number1(input_str):
+
+    try:
+        input_len = len(input_str)
+        list1 = []
+        if input_len < 0:
+            return "Bad parameter"
+        else:
+            temp_number = int("1" + (input_len) * "0")
+            input_str = int(input_str)
+
+        print(temp_number)
+        sum = 0
+        while temp_number > 0:
+            # list1.append(input_str % temp_number)
+            num = input_str % temp_number
+            list1.append(num)
+
+            if temp_number == 10 and len(str(input_str)) > 1:
+                input_str = input_str // 10
+                input_len = len(str(input_str))
+                temp_number = int("1" + input_len * "0")
+            else:
+                temp_number = temp_number // 10
+
+            sum += num
+
+
+            print(temp_number)
+            print(list1)
+            print(sum)
+
+    except Exception as err:
+        print(str(err))
+
+
+
+    return []
 
 
 
 
 
-
-
-
+# print(add_elements_of_number(input_number))
+print(add_elements_of_number1(input_number))
 
 
 
