@@ -11,7 +11,7 @@ Output : a, a, a, aa, aa, aa, aaa
 
 
 def get_subsequence(string):
-
+    
 
 
     return []
