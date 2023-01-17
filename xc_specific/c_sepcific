@@ -1,0 +1,47 @@
+################################################################################################################################################################
+DELPHIX
+
+1st round: General discussions with Hiring Manager + one assignment related to MBTA Public APIs.
+2nd round: Discussions around the code I wrote for the assignment.
+3rd round: DS Algo, group anagram. How to solve in O(n)
+4th round: System Designing, a proxy kind of system
+5th round: Discussions with Hiring Manager again, she asked how you can design gmail, behavioral questions.
+
+Query NASA api and do some findings based on API results.
+
+NASA rocket science.
+DS Anagram etc.
+
+Coding round where one had to fetch data from an public API and do some operations. This round was followed by code discussion on the submission
+followed by 3 problem solving rounds and a design round.
+
+NASA API take home implementation of code to find out brightest location.
+
+Was asked to fetch api for BART (Bay Area Rapid Transit) and show real time update of trains at Montgomery St station
+
+Java code to make a remote http call to an open NASA API and receive some data, business logic to play with data, write code in online coding tool.
+
+An API design to fetch data from a railway system
+
+calculate average time the picture is taking using NASA API and predict when is next picture taken
+Use NASA's API to predict the next time the satellite will fly over a certain position.
+
+Write Java code to read a dictionary (list of valid words) from a file, take user input words and respond with a list of anagrams fro the dictionary
+
+Use the NASA API to calculate the next time a satellite will fly over a certain geographical location
+
+use an api to organize data.
+Write a program that estimates the next time a NASA satellite flies by a given location on Earth.
+
+Given a Dictionary, and a random set of characters find all anagrams - pair programming.
+Some database design questions
+################################################################################################################################################################
+
+
+
+
+
+
+
+
+
