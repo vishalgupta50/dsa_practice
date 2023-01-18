@@ -22,6 +22,8 @@ collections
 boto3
 authentication mechanism
 self in python
+tnii
+itni
 
 
 
