@@ -1,0 +1,18 @@
+(venv) (base) vishal.g@22K-K7XMML7H-3EU pythonProject % ls -al ~/.ssh
+total 344
+drwx------   9 vishal.g  staff    288 Jan 16 10:08 .
+drwxr-xr-x+ 55 vishal.g  staff   1760 Jan 18 21:49 ..
+-rw-r--r--@  1 vishal.g  staff    129 Sep 24  2021 config
+-rw-------   1 vishal.g  staff    464 Jul 12  2021 id_ed25519
+-rw-r--r--   1 vishal.g  staff    102 Jul 12  2021 id_ed25519.pub
+-rw-------   1 vishal.g  staff    419 Jan  2 21:15 id_ed25520
+-rw-r--r--   1 vishal.g  staff    107 Jan  2 21:15 id_ed25520.pub
+-rw-------   1 vishal.g  staff  76825 Jan 16 10:08 known_hosts
+-rw-------   1 vishal.g  staff  76257 Jan 16 10:07 known_hosts.old
+(venv) (base) vishal.g@22K-K7XMML7H-3EU pythonProject % eval "$(ssh-agent -s)"
+Agent pid 43578
+(venv) (base) vishal.g@22K-K7XMML7H-3EU pythonProject % open ~/.ssh/config
+(venv) (base) vishal.g@22K-K7XMML7H-3EU pythonProject % ssh-add --apple-use-keychain ~/.ssh/id_ed25520
+Identity added: /Users/vishal.g/.ssh/id_ed25520 (vishalguptasnwl@gmail.com)
+(venv) (base) vishal.g@22K-K7XMML7H-3EU pythonProject % git push --set-upstream origin dsa_branch     
+Enumerating objects: 26, done.
