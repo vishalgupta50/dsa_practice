@@ -13,7 +13,7 @@ Output: Strings are not rotations of each other
 def check_rotation(s1, s2):
 
     temp_str = s1 + s1
-
+    print(temp_str)
     if temp_str.count(s2) > 0:
         return 1
     else:
