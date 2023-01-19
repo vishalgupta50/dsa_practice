@@ -10,7 +10,7 @@ there is a closing ‘]’ before the closing ‘(‘
 
 """
 
-input_str = "[()]{}{[()(v)]()}a{}a{}"
+
 
 # used two different kind of data structures list and dictionary
 def check_balance_paranthese1(istr):
@@ -98,7 +98,19 @@ def check_balance_paranthese2(test_str):
     return stack == []
 
 
-print(check_balance_paranthese1(input_str))
+def check_balance_paranthese3(my_string):
+    brackets = ['()', '{}', '[]']
+    while any(x in my_string for x in brackets):
+        for br in brackets:
+            my_string = my_string.replace(br, '')
+    return not my_string
+
+
+
+
+input_str = '}{}{'
+
+print(check_balance_paranthese3(input_str))
 
 
 
