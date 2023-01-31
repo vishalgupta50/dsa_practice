@@ -9,23 +9,23 @@ Here are some sample Response Codes which we will normally see while performing 
 
 # 1) 100 Series
 These are temporary Responses
-        100 Continue
-        101 Switching Protocols
-        102 Processing
+- 100 Continue
+- 101 Switching Protocols
+- 102 Processing
 
 
 # 2) 200 Series
 The client accepts the Request, being processed successfully at the server.
-        200 – OK
-        201 – Created
-        202 – Accepted
-        203 – Non-Authoritative Information
-        204 – No Content
-        205 – Reset Content
-        206 – Partial Content
-        207 – Multi-Status
-        208 – Already Reported
-        226 – IM Used
+- 200 – OK
+- 201 – Created
+- 202 – Accepted
+- 203 – Non-Authoritative Information
+- 204 – No Content
+- 205 – Reset Content
+- 206 – Partial Content
+- 207 – Multi-Status
+- 208 – Already Reported
+- 226 – IM Used
 
 
 # 3) 300 Series
