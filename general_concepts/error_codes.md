@@ -7,14 +7,14 @@ https://developer.mozilla.org/en-US/docs/Web/HTTP/Status
 Rest API Response Codes
 Here are some sample Response Codes which we will normally see while performing REST API testing over POSTMAN or over any REST API client.
 
-#1) 100 Series
+# 1) 100 Series
 These are temporary Responses
         100 Continue
         101 Switching Protocols
         102 Processing
 
 
-#2) 200 Series
+# 2) 200 Series
 The client accepts the Request, being processed successfully at the server.
         200 – OK
         201 – Created
@@ -28,7 +28,7 @@ The client accepts the Request, being processed successfully at the server.
         226 – IM Used
 
 
-#3) 300 Series
+# 3) 300 Series
 Most of the codes related to this series are for URL Redirection.
         300 – Multiple Choices
         301 – Moved Permanently
@@ -41,7 +41,7 @@ Most of the codes related to this series are for URL Redirection.
         308 – Permanent Redirect
 
 
-#4) 400 Series
+# 4) 400 Series
 These are specific to client-side error.
         400 – Bad Request
         401 – Unauthorised
@@ -73,7 +73,7 @@ These are specific to client-side error.
         451 – Unavailable For Legal Reasons
 
 
-#5) 500 Series
+# 5) 500 Series
 These are specific to the server-side error.
         500 – Internal Server Error
         501 – Not Implemented
