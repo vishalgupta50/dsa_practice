@@ -5,10 +5,11 @@ find largest subarray with sum 0
 
 
 
-input_arr = [15,-2,2,-8,1,7,10,23, -5, 5, -23, -18]
-
+input_arr = [15,-2,2,-8,1,7,10,23, -5, -5, -23, -18]
+input_arr1 = [15, -2, 2, -8, 1, 7, 10, 23]
 
 def find_largest_zero_sublist(input_list):
+    global max_len
     sum = 0
     dic = {}
 

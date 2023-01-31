@@ -21,10 +21,10 @@ def get_intersection(list_3, list_5):
 def get_difference(list_3, list_5):
 
     new_list = []
-    print(list_5)
+    # print(list_5)
     for elem in list_3:
         if elem not in list_5:
-            print(elem)
+            # print(elem)
             new_list.append(elem)
 
     return new_list
