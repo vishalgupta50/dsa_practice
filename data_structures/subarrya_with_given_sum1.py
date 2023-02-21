@@ -45,3 +45,31 @@ Constraints:
 
 
 """
+# import arr as arr
+
+arr = [1,2,3,4,5,6,7,8,9,10]
+n, s = 10, 15
+sum = 0
+arrdict = dict()
+max_len = 0
+
+# for i in range(len(arr)):
+#     sum += arr[i]
+#     if sum == s:
+#         max_len =
+
+print(max_len)
+
+
+
+
+
+
+
+
+
+
+
+
+
+

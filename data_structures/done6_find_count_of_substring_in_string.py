@@ -36,6 +36,15 @@ while start < len(input_str):
 print(count)
 
 
+# def find_substring_count(istr):
+
+
+
+
+
+
+
+
 
 
 
