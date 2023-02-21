@@ -38,8 +38,6 @@ def add_elements_of_number(input_str):
     return sum
 
 
-
-
 def add_elements_of_number1(input_str):
 
     try:
@@ -80,10 +78,19 @@ def add_elements_of_number1(input_str):
     return []
 
 
+# def add_elements_of_number(input_str):
+#     sum = 0
+#     nwe_list = []
+#     for i in range(len(input_str)):
+#         for j in range(i + 1, len(input_str) + 1):
+
+
+
 
 
 
 # print(add_elements_of_number(input_number))
+
 print(add_elements_of_number1(input_number))
 
 

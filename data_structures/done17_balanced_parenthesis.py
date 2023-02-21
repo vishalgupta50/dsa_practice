@@ -106,11 +106,34 @@ def check_balance_paranthese3(my_string):
     return not my_string
 
 
+def check_balance_paranthese4(string):
+
+    stack = []
+    if len(string) == 0:
+        return False
+    for char in string:
+        if char in ["[", "(", "{"]:
+            stack.append(char)
+        if len(stack) == 0:
+            return False
+        elif char == "]" and stack[-1] == "[":
+            stack.pop()
+        elif char == "}" and stack[-1] == "{":
+            stack.pop()
+        elif char == ")" and stack[-1] == "(":
+            stack.pop()
+
+    if len(stack) == 0:
+        return True
+    else:
+        return False
 
 
-input_str = '}{}{'
+# input_str = '}{}{'
+input_str = '{}[(])'
+input_str = '([{}])'
 
-print(check_balance_paranthese3(input_str))
+print(check_balance_paranthese4(input_str))
 
 
 

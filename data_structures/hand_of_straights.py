@@ -55,8 +55,13 @@ def group(ilist, k):
     for key, value in count1.items():
         cur = key
         for i in range(1, k):
+            if cur + i == key:
+                count1[cur + i] -= 1
+            if count[cur + i] < 0:
+                return False
 
-        print(key, value)
+    return True
+        # print(key, value)
 
 
 

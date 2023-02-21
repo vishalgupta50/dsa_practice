@@ -40,7 +40,7 @@ def inversion_count1(input_list):
 
 
 
-# print(inversion_count(input_list))
+print(inversion_count(input_list))
 # print(type(inversion_count(input_list)))
 
 for index, value in enumerate(input_list):
