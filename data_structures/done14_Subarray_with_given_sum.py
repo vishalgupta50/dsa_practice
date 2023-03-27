@@ -43,9 +43,37 @@ def subArraySum(arr_list):
     return index_list
 
 
+def subArraySum1(arr_list):
+    sum = 0
+    sum_dict = dict()
+    for i in range(len(arr_list)):
+        sum = arr_list[i]
+        for j in range(i+1, len(arr_list)):
+            sum += arr_list[j]
+            if sum == 15:
+                print(arr_list[i:j+1])
+                print(i+1, j+1)
+
+
+def subArraySum2(arr_list):
+    start = 0
+    end = 0
+    n = len(arr_list)
+    sum = arr_list[start]
+
+    while end < n:
+        if sum == 39:
+            print(arr_list[start: end+1])
+        elif sum < 39:
+            end += 1
+            if end < n:
+                sum += arr_list[end]
+        else:
+            sum -= arr_list[start]
+
 
 
 arr_list = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 15, 16, 98, 15, 45, 15, 0, 10, 5, 8, 8, -1]
 
 
-print(subArraySum(arr_list))
+print(subArraySum1(arr_list))

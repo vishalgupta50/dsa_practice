@@ -23,6 +23,16 @@
                 "Web Devedlopment"
             ],
             "email": "JaneDode@pynative.com"
+        },
+        {
+            "name": "jane doe1",
+            "salary": 90010,
+            "skills": [
+                "Raspbderry pi",
+                "Machine Leadrning",
+                "Web Devedlopment"
+            ],
+            "email": "JaneDode@pynative.com"
         }
     ]
 }
