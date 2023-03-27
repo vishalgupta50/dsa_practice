@@ -197,10 +197,76 @@
 #     print(i)
 #     # i += 2
 
-a = [34, 56, 23, 67, 12, 90, 12]
-print(a[3:])
-print(a[:3])
-print(len(a))
+# a = [34, 56, 23, 67, 12, 90, 12]
+# print(a[3:])
+# print(a[:3])
+# print(len(a))
+#
+# with open("binary_search.py", 'r') as content:
+#     data = content.read()
+# print(data)
+#
+# import unittest
+#
+#
+# def sum(x, y):
+#     return x + y
+#
+#
+# class Test(unittest.TestCase):
+#
+#     def test1(self):
+#         self.assertEqual(sum(5,6), 11)
+#
+#     def test2(self):
+#         self.assertNotEqual(sum(5,6), 12)
+
+
+
+
+def fibonacci(num):
+    f1, f2 = 0, 1
+    print(f1, end= " ")
+    for i in range(1, num):
+        print(f2, end= " ")
+        next = f1 + f2
+        f1 = f2
+        f2 = next
+
+# fibonacci(9)
+
+
+
+def fibonacci1(num):
+    if num == 0:
+        return 0
+    elif num == 1:
+        return 1
+    else:
+        return fibonacci1(num-2) + fibonacci1(num-1)
+
+
+for i in range(9):
+    print(fibonacci1(9), end=" ")
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

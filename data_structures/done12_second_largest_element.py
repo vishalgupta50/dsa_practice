@@ -41,7 +41,7 @@ for i in range(2,n):
         print("2")
         secondmax = list1[i]
         print("2 end")
-    elif mx == secondmax & secondmax != list1[1]:
+    elif mx == secondmax & secondmax != list1[i]:
         print("3")
         secondmax = list1[i]
         print("3 end")
